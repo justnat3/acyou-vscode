@@ -1,0 +1,22 @@
+{
+  "name": "acyou",
+  "publisher": "justnat3",
+  "displayName": "acyou",
+  "description": "light theme",
+  "version": "0.1.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "acyou",
+        "uiTheme": "vs",
+        "path": "./themes/acyou-color-theme.json"
+      }
+    ]
+  }
+}
