@@ -1,16 +1,15 @@
-# acyou README
+# acyou 
 
-## Working with Markdown
+A light color theme designed like... Something old? enjoy!
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+<img width=250 height=350 src="https://github.com/justnat3/acyou-vscode/assets/58314490/c43495cb-6d97-4c11-ab73-68abea564e89">
 
-## For more information
+## Notes on using with gitlens 
+You may have to add the following if you are using this with gitlens, this is to make gitlens visable against the background
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+```json
+"workbench.colorCustomizations": {
+    "gitlens.trailingLineForegroundColor": "#5a452e8f"
+}
+```
